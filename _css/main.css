@@ -1,1 +1,100 @@
 /* css */
+body{
+  margin:0px;/* this makes the body have a margin of 0px*/
+  padding:0px;
+  background-color:black;
+}
+
+#page{
+  padding: 40px;
+}
+
+#header{
+  background-color:gray;
+  padding:0px;
+  margin:;
+  color:white;
+}
+
+#header h1{
+  padding:20px 40px 20px 40px;
+  margin:20px 80px
+  border-radius:10px 20px;
+}
+
+/* navigation*/
+#nav, #nav a{
+  background-color:#ccc;  /* this changes the backround color to  #ccc*/
+  padding:10px; /*this makes the padding 10px*/
+}
+#nav a{
+  margin:0px; /* this makes the margin 0px*/
+  color:black; /* this changes the background color*/
+  font-family:arial; /* this makes the font type arial*/
+  text-decoration:none; /* this removes the underline*/
+}
+
+#nav a:hover{
+  background-color:#aaaaff;
+  transition:background-color 5s;/* changes when you hover your mouse over the navigation*/
+  color:white;
+  /*end navigation*/
+}
+
+h1{
+  font-family:verdana;
+  font-size:60pt;
+}
+
+#content{
+  padding:20px 40px 20px 40px;
+  margin:0px;
+  background-color:#eee;
+}
+
+#content h2, #content h3{
+  font-family:arial;
+}
+
+#footer{
+  background-color:black;
+  color:white;
+  padding:20px 40px;
+}
+
+.spotlight {
+  border-width:10px;
+  border-color:pink;
+  border-style:solid;
+  background-color:pink;
+  margin:15px;
+  border-radius:20px 20px 20px 20px;
+}
+#footer a {
+  text-decoration:none;
+  color:white;
+}
+
+#page {
+  margin:40px 80px;
+}
+/* navigation*/
+
+
+
+
+
+
+
+
+
+/*#header{
+    background-color:grey;
+    width:400px;
+    padding:20px;
+}
+#header:hover{
+  background-color:yellow;  
+  transition:color 2s;
+}
+*/ 
